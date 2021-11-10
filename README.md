@@ -1,3 +1,9 @@
+# Aca-py and tails server images
+
+This repo provides sources for the aca-py and tails server images, providing a basic docker image of both. These images use a base installation of aca-py and tails server and add changes necessary for running with a random user, like when running in security-focussed Kubernetes distributions such as openshift.
+
+Please refer to the official DOcumentaion of [indy tails server](https://github.com/bcgov/indy-tails-server) and [Aca-Py](https://github.com/hyperledger/aries-cloudagent-python).
+
 ## Aca-py image env vars 
 
 ### Admin
@@ -131,7 +137,7 @@
 
 ## Tails Server env vars
 
-| Env var | Description 
+| Env var | Description | Default |
 |---|---|---|
 | TAILS_SERVER_ADDRESS | External address of the tails server |
 | TAILS_SERVER_LOG_LEVEL | Log level |
